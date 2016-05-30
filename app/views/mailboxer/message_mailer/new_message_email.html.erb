@@ -4,9 +4,13 @@
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
   </head>
   <body>
-    <h1>You have a new message: <%= @subject %></h1>
+    <h1>
+      <%= t('mailboxer.new_message_email.subject_explanation',
+          default: "You have a new message: " + @subject %>
+    </h1>
     <p>
-      You have received a new message:
+      <%= t('mailboxer.new_message_email.body_explanation',
+          default: "You have received a new message:" %>
     </p>
     <blockquote>
       <p>
@@ -14,7 +18,8 @@
       </p>
     </blockquote>
     <p>
-      Visit <%= link_to root_url, root_url %> and go to your inbox for more info.
+      <%= t('mailboxer.new_message_email.more_info',
+          default: "Visit " + link_to root_url, root_url + " and go to your inbox for more info." %>
     </p>
   </body>
 </html>
