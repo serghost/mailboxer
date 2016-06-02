@@ -6,11 +6,11 @@
   <body>
     <h1>
       <%= t('mailboxer.new_message_email.subject_explanation',
-          default: "You have a new message: #{@subject}" %>
+          default: "You have a new message: #{@subject}") %>
     </h1>
     <p>
       <%= t('mailboxer.new_message_email.body_explanation',
-          default: "You have received a new message:" %>
+          default: "You have received a new message:") %>
     </p>
     <blockquote>
       <p>
@@ -19,7 +19,7 @@
     </blockquote>
     <p>
       <%= t('mailboxer.new_message_email.more_info',
-          default: "Visit #{link_to root_url, root_url} and go to your inbox for more info." %>
+          default: "Visit #{link_to root_url, root_url} and go to your inbox for more info.") %>
     </p>
   </body>
 </html>
