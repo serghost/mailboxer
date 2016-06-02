@@ -1,3 +1,5 @@
+# Changed email template
+
 # Mailboxer [![Build Status](https://travis-ci.org/mailboxer/mailboxer.svg?branch=master)](https://travis-ci.org/mailboxer/mailboxer) [![Gem Version](https://badge.fury.io/rb/mailboxer.png)](http://badge.fury.io/rb/mailboxer) [![](https://gemnasium.com/ging/mailboxer.png)](https://gemnasium.com/ging/mailboxer)
 
 This project is based on the need for a private message system for [ging
